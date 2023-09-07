@@ -1,16 +1,16 @@
 #include <Arduino.h>
 
-int D0 = 2;   // Binary Coded Decimal input for Decoder
-int D1 = 3;   // Binary Coded Decimal input for Decoder
-int D2 = 4;   // Binary Coded Decimal input for Decoder
-int D3 = 5;   // Binary Coded Decimal input for Decoder
+int D0 = 8;   // Binary Coded Decimal input for Decoder
+int D1 = 9;   // Binary Coded Decimal input for Decoder
+int D2 = 10;   // Binary Coded Decimal input for Decoder
+int D3 = 11;   // Binary Coded Decimal input for Decoder
 
-int LT = 8;   // LT LOW turns all segments on
-int BL = 9;   // BL LOW while LT HIGH turns all segments off
+int LT = 2;   // LT LOW turns all segments on
+int BL = 3;   // BL LOW while LT HIGH turns all segments off
 
-int digit1Pin = 2;    // Output pin for digit 1
-int digit2Pin = 3;    // Output pin for digit 2
-int digit3Pin = 4;   // Output pin for digit 3
+int digit1Pin = 4;    // Output pin for digit 1
+int digit2Pin = 5;    // Output pin for digit 2
+int digit3Pin = 6;   // Output pin for digit 3
 
 
 
